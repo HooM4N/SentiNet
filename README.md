@@ -24,9 +24,9 @@ In this project, I explored several approaches to this task:
 
 📓 **Comprehensive Jupyter Notebook**: [https://github.com/Hoom4n/SentiNet/blob/main/SentiNet.ipynb](https://github.com/Hoom4n/SentiNet/blob/main/SentiNet.ipynb)
 
-🚀 **Try Online Demo on Hugging Face 🤗**: [https://hoom4n-sentinet.hf.space/](https://hoom4n-sentinet.hf.space/)
+🚀 **Try Online Demo on Hugging Face 🤗**: (TODO)
 
-🗂️ **Transformer-Based Model on Hugging Face**: [Link to HF Repo](link-to-a-hf-repo)
+🗂️ **Transformer-Based Model on Hugging Face**: (TODO)
 
 ## 📊 Results
 
