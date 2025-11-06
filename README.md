@@ -4,8 +4,6 @@
 ![Transformers](https://img.shields.io/badge/Transformers-4.57.0-orange?logo=huggingface)
 ![Tokenizers](https://img.shields.io/badge/Tokenizers-0.22.1-lightgrey?logo=huggingface)
 ![DeBERTa v3](https://img.shields.io/badge/DeBERTa-v3-green?logo=microsoft)
-![Dataset](https://img.shields.io/badge/Dataset-IMDb-red)
-![Task](https://img.shields.io/badge/Task-Sentiment_Analysis-blue)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 🧠 Introduction
