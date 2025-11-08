@@ -46,7 +46,7 @@ I evaluated models both quantitatively (via **F1 score**) and qualitatively on e
 The table below summarizes how each model handled five linguistically challenging samples — including sarcasm, shifting sentiment, and negation-based flips.
 Confidence values are shown in parentheses.
 
-| Text                                                                                 | Actual Sentiment | Challenge Type             | Logistic Reg.         | BiGRU + GloVe         | BiGRU + WordPiece     | Transformer (DeBERTa-v3) |
+| Text                                                                                 | Actual Sentiment | Challenge Type             | Logistic Reg.         | BiGRU + GloVe         | BiGRU + WordPiece     | Fine Tuned DeBERTa-v3 |
 | ------------------------------------------------------------------------------------ | ---------------- | -------------------------- | --------------------- | --------------------- | --------------------- | ------------------------ |
 | *The movie was short, simple, and absolutely wonderful.*                             | Positive         | Straightforward sentiment  | ✅ **Positive (0.99)** | ✅ **Positive (0.97)** | ✅ **Positive (0.92)** | ✅ **Positive (1.00)**    |
 | *The first half was boring and predictable, but the ending completely blew me away.* | Positive         | Shifting tone (neg→pos)    | ❌ **Negative (0.89)** | ❌ **Negative (0.93)** | ❌ **Negative (0.88)** | ✅ **Positive (0.98)**    |
