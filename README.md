@@ -37,7 +37,7 @@ I evaluated models both quantitatively (via **F1 score**) and qualitatively on e
 | Logistic Regression + TF-IDF | 0.939    | 0.897     | 0.886     |
 | BiGRU + WordPiece Tokenizer  | 0.928    | 0.854     | 0.850     |
 | BiGRU + Pretrained GloVe Embeddings     | 0.921    | 0.881     | 0.866     |
-| Fine Tubed DeBERTa-v3     | —        | **0.948** | **0.954** |
+| Fine Tuned DeBERTa-v3     | —        | **0.948** | **0.954** |
 
 
 
