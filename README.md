@@ -3,7 +3,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.8-red?logo=pytorch)
 ![Transformers](https://img.shields.io/badge/Transformers-4.57.0-orange?logo=huggingface)
 ![Tokenizers](https://img.shields.io/badge/Tokenizers-0.22.1-lightgrey?logo=huggingface)
-![DeBERTa v3](https://img.shields.io/badge/DeBERTa-v3-green?logo=microsoft)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 🧠 Introduction
@@ -15,16 +14,15 @@ In this project, I explored several approaches to this task:
 
 | Approach                                | Description                                                                                                                                                                                                              |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Fine-tuned Transformer (DeBERTa-v3)** | Fine-tuned **Microsoft’s DeBERTa-v3** on IMDb reviews with a custom projection head and `[CLS]` pooling for classification. Achieves strong contextual understanding and robustness to sarcasm and sentiment flips. |
+| **Transfer Learning** | Fine-tuned **Microsoft’s DeBERTa-v3** on IMDb reviews with a custom projection head and `[CLS]` pooling for classification. Achieves strong contextual understanding and robustness to sarcasm and sentiment flips. |
 | **BiGRU + Pretrained GloVe Embeddings**            | A **Bidirectional GRU** network initialized with **GloVe embeddings**, capturing sequential dependencies and semantic similarity from pretrained word vectors.                                                           |
 | **BiGRU + WordPiece Tokenizer**         | Another **BiGRU** model, but trained using a **custom WordPiece tokenizer** to better handle rare and out-of-vocabulary words.                                                                                           |
 | **Classic ML Baselines**                | Traditional models (Logistic Regression, Naïve Bayes, Gradient Boosting, Bagging) trained on TF-IDF features for comparison and benchmarking.                                                                            |
 
-📓 **Comprehensive Jupyter Notebook**: [https://github.com/Hoom4n/SentiNet/blob/main/SentiNet.ipynb](https://github.com/Hoom4n/SentiNet/blob/main/SentiNet.ipynb)
+📓 **Comprehensive Jupyter Notebook**: [SentiNet.ipynb](https://github.com/Hoom4n/SentiNet/blob/main/SentiNet.ipynb)
 
-🚀 **Try Online Demo on Hugging Face 🤗**: (TODO)
+🚀 **Try Online Demo on Hugging Face 🤗**: [hoom4n-sentinet.hf.space](https://hoom4n-sentinet.hf.space)
 
-🗂️ **Transformer-Based Model on Hugging Face**: (TODO)
 
 ## 📊 Results
 
@@ -37,7 +35,7 @@ I evaluated models both quantitatively (via **F1 score**) and qualitatively on e
 | Logistic Regression + TF-IDF | 0.939    | 0.897     | 0.886     |
 | BiGRU + WordPiece Tokenizer  | 0.928    | 0.854     | 0.850     |
 | BiGRU + Pretrained GloVe Embeddings     | 0.921    | 0.881     | 0.866     |
-| Fine Tuned DeBERTa-v3     | —        | **0.948** | **0.954** |
+| Fine Tuned DeBERTa-v3     | 0.972        | **0.948** | **0.954** |
 
 
 
